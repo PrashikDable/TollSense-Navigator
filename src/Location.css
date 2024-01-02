@@ -1,0 +1,63 @@
+.lcn {
+  height: 100vh; /* 100% viewport height */
+  width: 100vw; /* 100% viewport width */
+  position: relative;
+  background-color: #fff; /* Set background color to white */
+}
+
+.container {
+  height: 100%;
+  width: 100%;
+  position: relative; /* Add position relative to allow z-index to work */
+  z-index: 0; /* Set a z-index for the container */
+  border-radius: 10px; /* Add border-radius for curved edges */
+  overflow: hidden; /* Ensure the curved edges are visible */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+.onTop {
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: fit-content;
+  padding: 10px; /* Adjust the padding to reduce the size */
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  z-index: 1;
+  border-radius: 10px;
+  overflow: hidden;
+  
+}
+
+input,
+/* select, */
+button {
+  justify-content: space-between;
+  margin: 5px; /* Adjust spacing between form elements */
+  padding: 10px; /* Adjust padding for better appearance */
+  border: 1px solid #ccc; /* Add a border for form elements */
+  border-radius: 20px; /* Add border-radius for curved edges */
+}
+
+
+button:hover {
+  background-color: #de3163; /* Green background color on hover */
+  color: white; /* White text on hover */
+}
+
+/* Style the dropdown list */
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  appearance: none; /* Remove default arrow in Chrome and Safari */
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="%23212121"><path d="M7 10l5 5 5-5z"/></svg>');
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 20px;
+}
+
+
+/*----------------------------------------------------------------------------------------------------------------*/
