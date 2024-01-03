@@ -1,6 +1,6 @@
 
 import './App.css';
-import Location from './Location'
+import Location from './Components/Location'
 
 function App() {
   return (

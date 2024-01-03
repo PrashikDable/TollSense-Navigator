@@ -7,9 +7,9 @@ import L from 'leaflet'
 import './Map.css'
 import MarkerClusterGroup from 'react-leaflet-cluster'
 
-import source from './source.png'
-import destination from './destination.png'
-import tol from './toll.png'
+import source from '../Assets/source.png'
+import destination from '..Assets/destination.png'
+import tol from '..Assets/toll.png'
 
 
 
