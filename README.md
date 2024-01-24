@@ -5,5 +5,6 @@
 * __Going beyond basic functionality, "TollSense Navigator" offers users a detailed breakdown of toll information, empowering them with a comprehensive view of incurred costs along their route. This project showcases my expertise in crafting seamless applications, integrating external services, and prioritizing user-centric design, demonstrating a commitment to delivering innovative solutions in web development.__
 
 ![Screenshot (121)](https://github.com/PrashikDable/TollSense-Navigator/assets/125259111/5456277e-4d8c-43ad-9fe3-4df7eb5d14d7)
+https://github.com/PrashikDable/TollSense-Navigator/assets/125259111/977948a1-51d4-425f-aa75-a17309b15990
 
   
