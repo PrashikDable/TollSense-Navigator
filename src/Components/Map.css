@@ -12,8 +12,8 @@
     margin-bottom: 20px;
   } */
 
-  .Map {
-    width: 100vw; /* 100% of the viewport width */
-    height: 100vh; /* 100% of the viewport height */
-    position: relative;
-  }
+.Map {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
